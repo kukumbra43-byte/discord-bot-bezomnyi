@@ -10,7 +10,7 @@ TARGET_USERS = {
     1247385333210022014: "kontrakt_nety_doma.mp3"
 }
 
-TOKEN = 'MTQ0MTQ2MTgwMTYyMjcwNDE0OA.GUpjJb.-ZzRjYy0e5BqKTK6KNQUOJeuaFE2PT_tR6_zSQ'
+TOKEN = 'MTQ0MTQ2MTgwMTYyMjcwNDE0OA.G0zzf7.z5PfWmwjWetx76WkSzBkXzvBmPReOpWOX5PZ9I'
 
 intents = discord.Intents.default()
 intents.voice_states = True
@@ -44,3 +44,4 @@ async def on_voice_state_update(member, before, after):
                 print(f"Ошибка при воспроизведении для {member}: {e}")
 
 client.run(TOKEN)
+
